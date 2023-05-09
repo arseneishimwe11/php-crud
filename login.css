@@ -1,0 +1,100 @@
+* {
+	padding: 0%;
+	margin: 0%;
+	box-sizing: border-box;
+}
+
+.gender {
+	display: flex;
+	align-items: center;
+	margin: 10px 0;
+}
+
+.gender label {
+	opacity: 80%;
+	font-size: 20px;
+	font-family: monospace;
+	margin-right: 20px;
+}
+
+.login {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.login input {
+	margin: 10px 0;
+	width: 350px;
+	padding: 8px;
+	font-family: monospace;
+	font-size: 18px;
+	border: 1px solid #0a090a;
+	border-radius: 5px;
+}
+
+.login input:focus {
+	border: 1px solid #8e26f0;
+	outline: none;
+}
+
+#male,
+#female {
+	margin: 0 -200px 0 2px;
+}
+
+#female {
+	font-size: 200px;
+}
+
+.label {
+	margin: 10px 0;
+	font-size: 20px;
+	font-family: monospace;
+}
+
+#submit {
+	padding: 10px 40px;
+	background-color: #8e26f0;
+	color: aliceblue;
+	font-size: 20px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+#submit:hover {
+	background-color: #6b1d9a;
+}
+
+.button-select {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.button-12,
+.button-21 {
+	padding: 10px 40px;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.button-12 {
+	background-color: #8e26f0;
+	color: aliceblue;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	transition: background-color 0.3s ease;
+}
+
+.button-12:hover {
+	background-color: #6b1d9a;
+}
+#p-0{
+	margin: 10px 10px;
+	color: #8e26f0;
+}
